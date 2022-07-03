@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500&family=Poppins:wght@100&display=swap");
 
+
 html {
     height: 100%;
     background-color: #000;
@@ -32,7 +33,6 @@ header {
     height: 30px;
     color: rgb(0, 0, 0);
     background-color: white;
-    border: 2px solid white;
     border-radius: 10px;
     font-family: Gill Sans, sans-serif;
 }
@@ -69,6 +69,7 @@ header {
 }
 
 .name-head {
+    text-align:  center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -76,10 +77,13 @@ header {
     color:white;
     position: absolute;
     top: 55%;
-    left: 45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
 
 .name-center {
+    text-align:  center;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -87,7 +91,9 @@ header {
     color:white;
     position: absolute;
     top: 62%;
-    left: 41%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 .name-area {
@@ -98,6 +104,123 @@ header {
     font-size: 14px;
     color:white;
     position: absolute;
-    top: 71.5%;
-    left: 33%;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.project-center {
+    color:white;
+    font-family: 'Poppins';
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.project-dop {
+    color:white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 52px;
+}
+
+.project-image1 {
+    width: 260px;
+    height: 270px;
+    margin-top: 90px;
+    flex-direction: column;
+    margin-right: 60px;
+    animation: ani10601 5s linear infinite;
+    opacity: 0.2;
+}
+
+@keyframes ani10601 {
+    0% {
+      opacity: 0.2;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.project-image2 {
+    width: 260px;
+    height: 270px;
+    margin-top: 90px;
+    flex-direction: column;
+    margin-left: 60px;
+    animation: ani10601 5s linear infinite;
+    opacity: 0.2;
+}
+
+.project-image{
+    width: 260px;
+    height: 270px;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+footer {
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    height: 145px;
+    background-color: black;
+}
+
+hr {
+    background-color: white;
+    height: 0.1px;
+    width: 70%;
+    float: center;
+}
+
+.footer-title {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px;
+}
+
+.footer-email {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 14px;
+    position: absolute;
+    left: 28%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 56px;
+}
+
+
+.footer-category {
+    position: absolute;
+    left: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 60px;
+}
+
+.footer-category img{
+    height: 25px;
+    width: 25px;
+    margin: 0px 10px 0px 10px;
 }
